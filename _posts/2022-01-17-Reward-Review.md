@@ -6,8 +6,12 @@ categories: review
 
 In this post I provide a review and opinion on the paper ["Reward Is Enough"](https://www.sciencedirect.com/science/article/pii/S0004370221000862) by D Silver, S Singh, D Precup, and RS Sutton. In this work, the authors provide a broad perspective on reinforcement learning research and put forward the opinion that much of the behavior that interests cognitive science and artificial intelligence researchers can be viewed in relation to reward. Specifically, they propose that many cognitive faculties such as perception, language, generalization, imitation, and even general intelligence can be achieved through reward maximization and experience in an environment. They describe a hypothesis alongside these claims that is essentially stated in the short title, that reward is enough to learn these types of complex behaviors.
 
-![From Reward Is Enough paper on ScienceDirect
-David Silver, Satinder Singh, Doina Precup, Richard S.Sutton](https://ars.els-cdn.com/content/image/1-s2.0-S0004370221000862-gr001.jpg)
+<figure>
+
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0004370221000862-gr001.jpg" alt="Trulli" style="width:100%"><figcaption align = "center"><b>Fig.1 - Reward Is Enough
+David Silver, Satinder Singh, Doina Precup, Richard S.Sutton (paper on ScienceDirect). This figure demonstrates the overlap in behaviour that can conceviably be taught through reward signals by a cognitive vs. artificial agent.</b></figcaption>
+
+</figure>
 
 For a cognitive psychologist or cognitive philosopher the first impression of this claim and the themes of the paper may be somewhat negative. Haven’t Chomsky and others taught us that experience in language use alone cannot give us the tools we need to be good language users? There should be a requirement that a universal grammar exist to reduce the hypothesis space of possible grammars before we even begin understanding the utterances of others, let alone generating our own. In point of fact there is a significant dearth of ‘negative’ examples of proper language, as most of our experience is with well formed language. Furthermore, much of our experience with language happens internally, without a clearly defined external reward signal. 
 
