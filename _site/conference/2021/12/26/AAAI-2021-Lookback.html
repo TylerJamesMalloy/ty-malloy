@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Capacity-Limited Decentralized Actor-Critic for Multi-Agent Games | Human and Machine Learning in Cognitive Science</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Capacity-Limited Decentralized Actor-Critic for Multi-Agent Games" />
+<meta name="author" content="Tyler Malloy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This is the second post in a series of retrospectives on previous work I have done that shaped my PhD and are related to my future research goals. If you would like to read the paper you can find it on my Researchgate." />
+<meta property="og:description" content="This is the second post in a series of retrospectives on previous work I have done that shaped my PhD and are related to my future research goals. If you would like to read the paper you can find it on my Researchgate." />
+<link rel="canonical" href="http://localhost:4000/conference/2021/12/26/AAAI-2021-Lookback.html" />
+<meta property="og:url" content="http://localhost:4000/conference/2021/12/26/AAAI-2021-Lookback.html" />
+<meta property="og:site_name" content="Human and Machine Learning in Cognitive Science" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-12-26T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Capacity-Limited Decentralized Actor-Critic for Multi-Agent Games" />
+<script type="application/ld+json">
+{"headline":"Capacity-Limited Decentralized Actor-Critic for Multi-Agent Games","dateModified":"2021-12-26T00:00:00-05:00","datePublished":"2021-12-26T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/conference/2021/12/26/AAAI-2021-Lookback.html"},"author":{"@type":"Person","name":"Tyler Malloy"},"@type":"BlogPosting","url":"http://localhost:4000/conference/2021/12/26/AAAI-2021-Lookback.html","description":"This is the second post in a series of retrospectives on previous work I have done that shaped my PhD and are related to my future research goals. If you would like to read the paper you can find it on my Researchgate.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Human and Machine Learning in Cognitive Science" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Human and Machine Learning in Cognitive Science</a></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Capacity-Limited Decentralized Actor-Critic for Multi-Agent Games</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2021-12-26T00:00:00-05:00" itemprop="datePublished">
+        Dec 26, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>This is the second post in a series of retrospectives on previous work I have done that shaped my PhD and are related to my future research goals. If you would like to read the paper you can find it on my <a href="https://www.researchgate.net/publication/354551984_Capacity-Limited_Decentralized_Actor-Critic_for_Multi-Agent_Games">Researchgate</a>.</p>
+
+<p>Although this paper is relatively recent, I thought I would use it as my second post because it is closely realted to a project that I began soon after beginning my AI Researcher position with IBM in early 2019. I actually began this project before I presented the previous project at RLDM 2019. This earlier project, which eventually became an <a href="https://www.researchgate.net/publication/349345269_Consolidation_via_Policy_Information_Regularization_in_Deep_RL_for_Multi-Agent_Games">arxiv paper</a>, was influential in my interest in robotics, machine learning, and applications of reinforcement learning.</p>
+
+<p>After this earlier project applying reinforcement learning to a robotics simulation environment, I extended the general idea into the project and paper that goes along with it “Capacity-Limited Decentralized Actor-Critic for Multi-Agent Games”. This was a fortunate paper as it us to have a published work on mutual information regularized reinforcement learning. This was the main idea around the earlier metod applied to robotics. Essentially the main idea is that we want to make the behaviour learned by robots as informationally simplistic as possible. This is inspired by human behaviour which we believe strives to be similarly informationally simplistic where possible.</p>
+
+<p>This main idea was applied into a set of complex multi-agent environments with agents using a continuous control paradigm, as well as a degree of communication in some environments. We showed in our experimentation that applying a penalty to agent behavioural complexity at the learning stage can improve learning speed as well as the eventual highest performance of the agent. Compared to agents without this complexity constraint, our agents learned more generalizable behaviour that was simultaneously less informationally complex.</p>
+
+<p>This was a great result for our ideas of human-inspired reinforcement leanring, and I will probably make a seperate blog post in the future explaining those ideas in the future. Since this project, our ideas of human-inspired RL have slightly shifted, but this was an important first step. Recently in our work applying lessons from how humans learn complex tasks onto reinforcement learning we have focused this ‘information constraint’ view in different ways, but in spirit this is the same concept as these earlier papers.</p>
+
+  </div><a class="u-url" href="/conference/2021/12/26/AAAI-2021-Lookback.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">Tyler Malloy</li>
+          <li><a class="u-email" href="mailto:tylerjmalloy@gmail.com">tylerjmalloy@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>Tyler Malloy is a cognitive science PhD student and researcher studying human and machine learning. This site is for blog posts, research ideas, presentations and more.
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/TylerJamesMalloy" title="TylerJamesMalloy"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/tyler-james-malloy" title="tyler-james-malloy"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg></a></li><li><a rel="me" href="https://twitter.com/TylerJMalloy" title="TylerJMalloy"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

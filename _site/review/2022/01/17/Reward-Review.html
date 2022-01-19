@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Is Reward Enough? | Human and Machine Learning in Cognitive Science</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Is Reward Enough?" />
+<meta name="author" content="Tyler Malloy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In this post I provide a review and opinion on the paper “Reward Is Enough” by D Silver, S Singh, D Precup, and RS Sutton. In this work, the authors provide a broad perspective on reinforcement learning research and put forward the opinion that much of the behavior that interests cognitive science and artificial intelligence researchers can be viewed in relation to reward. Specifically, they propose that many cognitive faculties such as perception, language, generalization, imitation, and even general intelligence can be achieved through reward maximization and experience in an environment. They describe a hypothesis alongside these claims that is essentially stated in the short title, that reward is enough to learn these types of complex behaviors. The following figure borrowed from the paper describes several phenomenon which could hypothetically be trained through reward based reinforcement style learning." />
+<meta property="og:description" content="In this post I provide a review and opinion on the paper “Reward Is Enough” by D Silver, S Singh, D Precup, and RS Sutton. In this work, the authors provide a broad perspective on reinforcement learning research and put forward the opinion that much of the behavior that interests cognitive science and artificial intelligence researchers can be viewed in relation to reward. Specifically, they propose that many cognitive faculties such as perception, language, generalization, imitation, and even general intelligence can be achieved through reward maximization and experience in an environment. They describe a hypothesis alongside these claims that is essentially stated in the short title, that reward is enough to learn these types of complex behaviors. The following figure borrowed from the paper describes several phenomenon which could hypothetically be trained through reward based reinforcement style learning." />
+<link rel="canonical" href="http://localhost:4000/review/2022/01/17/Reward-Review.html" />
+<meta property="og:url" content="http://localhost:4000/review/2022/01/17/Reward-Review.html" />
+<meta property="og:site_name" content="Human and Machine Learning in Cognitive Science" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-17T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Is Reward Enough?" />
+<script type="application/ld+json">
+{"headline":"Is Reward Enough?","dateModified":"2022-01-17T00:00:00-05:00","datePublished":"2022-01-17T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/review/2022/01/17/Reward-Review.html"},"author":{"@type":"Person","name":"Tyler Malloy"},"@type":"BlogPosting","url":"http://localhost:4000/review/2022/01/17/Reward-Review.html","description":"In this post I provide a review and opinion on the paper “Reward Is Enough” by D Silver, S Singh, D Precup, and RS Sutton. In this work, the authors provide a broad perspective on reinforcement learning research and put forward the opinion that much of the behavior that interests cognitive science and artificial intelligence researchers can be viewed in relation to reward. Specifically, they propose that many cognitive faculties such as perception, language, generalization, imitation, and even general intelligence can be achieved through reward maximization and experience in an environment. They describe a hypothesis alongside these claims that is essentially stated in the short title, that reward is enough to learn these types of complex behaviors. The following figure borrowed from the paper describes several phenomenon which could hypothetically be trained through reward based reinforcement style learning.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Human and Machine Learning in Cognitive Science" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Human and Machine Learning in Cognitive Science</a></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Is Reward Enough?</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2022-01-17T00:00:00-05:00" itemprop="datePublished">
+        Jan 17, 2022
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>In this post I provide a review and opinion on the paper <a href="https://www.sciencedirect.com/science/article/pii/S0004370221000862">“Reward Is Enough”</a> by D Silver, S Singh, D Precup, and RS Sutton. In this work, the authors provide a broad perspective on reinforcement learning research and put forward the opinion that much of the behavior that interests cognitive science and artificial intelligence researchers can be viewed in relation to reward. Specifically, they propose that many cognitive faculties such as perception, language, generalization, imitation, and even general intelligence can be achieved through reward maximization and experience in an environment. They describe a hypothesis alongside these claims that is essentially stated in the short title, that reward is enough to learn these types of complex behaviors. The following figure borrowed from the paper describes several phenomenon which could hypothetically be trained through reward based reinforcement style learning.</p>
+
+<figure>
+
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0004370221000862-gr001.jpg" alt="Trulli" style="width:100%" /><figcaption align="center"><b>Fig.1 - Reward Is Enough
+David Silver, Satinder Singh, Doina Precup, Richard S.Sutton (paper on ScienceDirect). This figure demonstrates the overlap in behaviour that can conceviably be taught through reward signals in a cognitive vs. artificial agent.</b></figcaption>
+
+</figure>
+
+<p>For a cognitive psychologist or cognitive philosopher the first impression of this claim and the themes of the paper may be somewhat negative. Haven’t Chomsky and others taught us that experience in language use alone cannot give us the tools we need to be good language users? There should be a requirement that a universal grammar exist to reduce the hypothesis space of possible grammars before we even begin understanding the utterances of others, let alone generating our own. In point of fact there is a significant dearth of ‘negative’ examples of proper language, as most of our experience is with well formed language. Furthermore, much of our experience with language happens internally, without a clearly defined external reward signal.</p>
+
+<p>Although these potential issues can be raised when taking the reward-is-enough hypothesis as a general claim or descriptive thesis on human cognition, in reality the goals of the paper are in showing that reward is sufficient for complex behavior learning. Because of this, the main purpose of the paper could be supported even without any evidence of reward based learning in a human agent. Instead the paper seeks to provide evidence that artificial reinforcement learning agents could hypothetically learn the complex behavior that humans achieve through reward signals alone.</p>
+
+<p>While it is true that the paper claims to be more interested in describing the ‘sufficient’ aspect of learning behavior through reward, it does at the same time make some claims and connections to cognitive science that are more controversial. One source of potential controversy is the section entitled “What else, other than reward maximisation, could be enough for intelligence?” In this section the authors provide brief outlines of alternative hypotheses and suggest that they are not as well fit for training goals of general AI and other interesting behaviors. The presence of this section raises the question of the true intentions of the paper as a whole. If as the authors claim the hypothesis is centered around how behavior could be taught and not a description of human cognition, then why iterate through a list of alternatives and claim they cannot do what reward alone can?</p>
+
+<p>In particular, the brief sentences on the free-energy hypothesis arguably leave out some important claims by cognitive psychologists such as Karl Friston in his paper “The free-energy principle: a unified brain theory?” The full quote from ‘Reward Is Enough’ is as follows: “Maximisation of free energy or minimisation of surprise may yield several abilities of natural intelligence, but does not provide a general-purpose intelligence that can be directed towards a broad diversity of different goals in different environments. Consequently it may also miss abilities that are demanded by the optimal achievement of any one of those goals (for example, aspects of social intelligence required to mate with a partner, or tactical intelligence required to checkmate an opponent).”</p>
+
+<p>It seems from Friston’s perspective that free energy alone could provide much of what reward does for the authors of this paper. At least this should have more of a discussion if the authors are interested in showing why reward is unique in its ability. If they are not then it may be better to eschew a discussion of alternatives or claims that reward is specifically unique in its position. Otherwise, it is hard to not make larger connections of the claims made in the paper to a description of human cognition.</p>
+
+<p>To me the general theme of the paper actually reminded me much of Karl Friston’s paper previously mentioned. There are many complex behaviors that could be defined as achieving something like free-energy minimization or reward maximization. Generally this is a good place to start for machine learning or artificial intelligence research because if you can begin to define what desirable behaviour looks like in terms that resemble something like a trainable loss function, then you are well on your way to making a useful system. This may be interesting from an AI researcher or engineering perspective, but for a cognitive psychologist the claims could be seen as somewhat vacuous and less useful for understanding cognition.</p>
+
+<p>If you are interested in my perspective, I think that at least for much of human learning and decision making there is a combination of reward driven reinforcement style learning and predictive processing used for planning and beliefs about future states. However, I will add that I make no claims of how language and general intelligence specifically can and should be taught, as those are outside of the realm of my particular experience. I would imagine that much of those more complex behaviors is more driven by the structure of cognitive architectures as they have been optimized through millions of years of evolution.</p>
+
+
+  </div><a class="u-url" href="/review/2022/01/17/Reward-Review.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">Tyler Malloy</li>
+          <li><a class="u-email" href="mailto:tylerjmalloy@gmail.com">tylerjmalloy@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>Tyler Malloy is a cognitive science PhD student and researcher studying human and machine learning. This site is for blog posts, research ideas, presentations and more.
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/TylerJamesMalloy" title="TylerJamesMalloy"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/tyler-james-malloy" title="tyler-james-malloy"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg></a></li><li><a rel="me" href="https://twitter.com/TylerJMalloy" title="TylerJMalloy"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
