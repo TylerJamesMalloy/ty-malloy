@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Personal About Page
+title: About Me
 ---
 
 
