@@ -19,4 +19,4 @@ For all of the papers that I have released online see my [research gate profile]
 
 ## Personal: 
 
-I was born in a small town outside of Boston Massachusetts and moved to Vancouver at the age of 18 to attend university at UBC, where I studied cognitive systems and philosophy. While in Vancouver I met my partner, a brilliant computer security specialist who inspires me in both my personal life and my research. After university I began my PhD at RPI and moved to Troy where I have been ever since, other than a brief internship in Yorktown NY at IBM. 
+I was born in a small town outside of Boston Massachusetts and moved to Vancouver at the age of 18 to attend university at UBC, where I studied cognitive systems and philosophy. While in Vancouver I met my partner, a brilliant computer security specialist who inspires me in both my personal life and my research. After university I began my PhD at RPI and moved to Troy where I have been ever since, other than a brief internship in Yorktown NY at IBM. My hobbies include cooking, eating out at restaurants, reading science fiction, fantasy, and philosophy, and playing video games with my partner. 
