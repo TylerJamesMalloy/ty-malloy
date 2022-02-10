@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wordle: A Reinforcemnt Learning Perspective"
+title: "Wordle: A Reinforcement Learning Perspective"
 categories: discussion
 ---
 
