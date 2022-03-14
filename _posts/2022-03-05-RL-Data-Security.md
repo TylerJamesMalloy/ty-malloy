@@ -27,7 +27,7 @@ For the environment, we would likely want to limit our area of investigation to 
 
 </figure>
 
-Not only does the REST API provide a manner for representing data, more importantly it describes how the user, in this case our RL algorithm, interacts with a web based system. Just looking at the two diagrams shown previously we can easily draw direct connections between their functionalities. We can 
+Not only does the REST API provide a manner for representing data, more importantly it describes how the user, in this case our RL algorithm, interacts with a web based system. Just looking at the two diagrams shown previously we can easily draw direct connections between their functionalities. 
 
 Generally the information contained in a REST API based response from a web server is contained in a specific format such as HTML, XML, or JSON depending on the application. If we were to build a real RL system we would likely again want to narrow down (you are likely starting to see a trend) the scope by selecting one of these formats. Alternatively we could try training a more general RL system with either a logic based preprocessing step unique to each of the representation methods, or some other information structuring approach. 
 
