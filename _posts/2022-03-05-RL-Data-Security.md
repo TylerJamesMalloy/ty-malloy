@@ -10,7 +10,7 @@ These connections were relatively easy to make since my own personal experience 
 
 The first use case for such RL systems that immediately jumps to mind is in performing some type of testing for existing web services or ones in development. I do have some minor experience in web application software testing, though it was in performance specifically and centered moreso around timing and user satisfaction rather than data security. 
 
-As with all potential use-cases of RL it is a fun mental exercise to break down the state, environments, actions, and rewards to see if we can immediately make sense of what the system would look like and how it would perform its task. Additionally this is useful in determining if existing solutions are sufficient or better suited to the tasks that are in question. 
+As with all potential use-cases of RL it is a fun mental exercise to break down the state, environments, actions, and rewards to see if we can immediately make sense of what the system would look like and how it would perform its task. Additionally this is useful in determining if existing solutions are sufficient or better suited to the tasks that are in question. We can use the classic diagram from Sutton and Barto as a reference for the interaction between these parts. 
 
 <figure>
 
@@ -19,7 +19,7 @@ As with all potential use-cases of RL it is a fun mental exercise to break down 
 </figure>
 
 
-For the environment, we would likely want to limit our area of investigation to a particular website or web based application/system to limit the space we are interested in. However, there are many possible structures for how information is represented on the web, and we should additionally limit, at least for our brief discussion, how this information is represented. One particularly useful manner is provided by the REST API or Representational state transfer Application Programing Interface. 
+For the environment, we would likely want to limit our area of investigation to a particular website or web based application/system to limit the space we are interested in. However, there are many possible structures for how information is represented on the web, and we should additionally limit, at least for our brief discussion, how this information is represented. One particularly useful manner is provided by the REST API or Representational State Transfer Application Programing Interface. Even without knowing much about it, this seems like a great way to structure our RL system, State (the focus of all RL systems) is right in the name! 
 
 <figure>
 
